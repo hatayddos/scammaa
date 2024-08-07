@@ -1,0 +1,302 @@
+@charset "utf-8";
+/* Police */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../polices/open-sans-latin-ext-regular.woff2') format('woff2'),
+       url('../polices/open-sans-latin-ext-regular.woff') format('woff');
+}
+/* Icones */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../polices/glyphicons-halflings-regular.eot");
+  src: url("../polices/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../polices/glyphicons-halflings-regular.woff2") format("woff2"), url("../polices/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../polices/glyphicons-halflings-regular.ttf") format("truetype"), url("../polices/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'dgfipicons';
+  src: url("../polices/dgfip_dgfipicons.woff") format("woff"),url("../polices/dgfip_dgfipicons.ttf") format("truetype"), url("../polices/dgfip_dgfipicons.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.dgfipicon {
+  font-family: 'dgfipicons', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dgfipicon + span {
+  margin-left: 10px;
+}
+/*Icône "adresse validée" */
+.dgfipicon-ok:before {
+  content: '\e93e';
+}
+/*Icône "adresse en cours de validation" */
+.dgfipicon-info:before {
+  content: '\e93a';
+}
+/*Icône "Lien externe" */
+.dgfipicon-sortie-page::before {
+    content: '\e957';
+	font-size:0.6em;
+}
+/* Icône "Aide" */
+.dgfipicon-aide::before {
+  content: '\e904';
+  color:#666;
+}
+/* Icône "Cadenas" */
+.dgfipicon-cadenas-ferme::before {
+    content: '\e90c';
+    font-size:2.1rem;
+}
+/*Général*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;/* Important pour le footer */
+  background:#e8e8e8;
+}
+header {
+  background:#fff;
+}
+/*
+header .container {
+  padding-right:0;
+}
+*/
+
+footer {
+  position: absolute;
+  bottom:0px;
+  left:0;
+  width: 100%;
+  max-height: 90px;
+  background-color: #fff;
+  padding:1em 0;
+  border-top:25px solid #e8e8e8;
+  margin:0;
+}
+.spacer-top {
+margin-top:1rem;
+}
+.text-dark {
+color:#333;
+}
+a {
+  text-decoration:underline
+}
+a.btn {
+  text-decoration:none;
+}
+h2{
+  padding: 0;
+  margin: 0;
+}
+h2.text-left {
+  padding-left:1.4rem
+}
+.panel-heading, .modal-header {
+  border-bottom: 2px solid #0B6BA8 !important;
+}
+.panel-footer.noborder {
+  border:0;
+}
+label {
+  font-weight:normal;
+}
+/*
+.spacer-top {
+margin-top:1rem;
+}
+*/
+/* Boutons */
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+opacity:1;
+}
+.btn-primary:hover {
+  background-color:#178FEB !important;
+  color:#fff !important;
+  transition:all 2s;
+}
+.btn-success:hover {
+  background-color:#3ea03f !important;
+  color:#fff !important;
+  transition:all 2s;
+}
+button:focus {
+  outline: 1px dotted #212121;
+}
+/*
+.miel{
+  position: fixed;
+  top: -500px;
+  left: -500px;
+}
+*/
+
+/* Affichage des champs en erreur ou valides */
+.has-error .form-control {
+  border-color:#b42400 !important;
+  box-shadow:none !important;
+}
+.has-success .form-control {
+  border-color:#3c763d !important;
+  box-shadow:none !important;
+}
+/* Gestion de l'effet zoom d'iOS */
+input[type="date"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"],
+select:focus{
+  font-size: 16px;
+}
+.tooltip-inner {
+  padding:0.7em;
+  max-width:320px;
+}
+.breadcrumb {
+  margin:0.5em 0;
+}
+.breadcrumb a {
+  color:#333;
+}
+.breadcrumb > li + li::before {
+    content: ">";
+    padding: 0 5px;
+    color: #333;
+}
+/*
+.modal-header {
+  border-bottom: 2px solid #0B6BA8
+}
+*/
+
+/* Boites */
+/*
+#logo {
+  height: 130px;
+  padding:0;
+  margin:0;
+  background-image:url("../images/logo.svg");
+  background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat:no-repeat;
+  background-position:0px;
+}
+*/
+
+#logo a, #logo_alt a {
+  padding:0;
+  margin-left:2px;
+  background-image:url("../images/logo_impots.svg");
+  background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat:no-repeat;
+  background-position:0;
+  display:block
+}
+#logo a {
+  height: 20px;
+}
+#logo_alt a {
+  height: 30px;
+}
+#logo h1 {
+    font-weight:bold;
+    font-size:22px
+}
+#logo_alt h1 {
+  margin-top:40px
+}
+#LogoSmartImage { 
+  max-width: 75%;
+  border-radius: 10px;
+}
+
+
+#bloc_marque {
+  height: 90px;
+  padding:0;
+  margin:1rem 0;
+  background-image:url("../images/bloc-marque.svg");
+  background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat:no-repeat;
+  background-position:0;
+  display:block
+}
+
+.marge {
+  margin:1rem 0;
+}
+
+.separ {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+.separ::after, .separ::before {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #e8e8e8;
+}
+#choisirFC {
+   width: 35px;
+   background-color: #ffffff;
+}
+#FranceConnect {
+        border-top: 0px;
+        padding: 0 0 ;
+}
+
+/* Adaptations RWD */
+
+  @media screen and (max-width:767px){
+   /*
+    #logo{
+      padding:0;
+      margin:15px 0 0 0;
+      height:31.45px;
+      background-image:url("../images/logo_rwd.svg");
+      background-size: contain;
+      -webkit-background-size: contain;
+      background-repeat:no-repeat;
+      background-position:50%;
+    }
+  */
+    #monEspace {
+      width:95%;
+      margin:0 2.5%;
+    }
+h1{
+  text-align:center
+}
+  /*
+    header .container {
+      padding-left:0;
+    }
+  */
+ }

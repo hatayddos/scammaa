@@ -1,0 +1,11 @@
+PortPub="https://www.impots.gouv.fr";
+PathPub="/portail/particulier";
+PathPriv="/monprofil-webapp/monCompte"; 
+PathCFP="/portail/contacts";
+Payer="https://www.telepaiement.dgfip.finances.gouv.fr/stl/redirectPart.htm";
+ProPrivFqdn="https://cfspro.impots.gouv.fr";
+ProPrivPath="/mire/accueil.do"; 
+fqdnFCFS="https://cfspart.impots.gouv.fr";
+pathFCFS="/monprofil-webapp/connexion";
+fqdnCFSPart="https://cfspart-idp.impots.gouv.fr";
+authFCFS=fqdnFCFS+'/';

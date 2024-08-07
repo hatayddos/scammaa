@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="472.99994"
+   height="153.772"
+   viewBox="-1 -1 473.92866 154.75419"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="num_acces.svg">
+  <metadata
+     id="metadata42">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs40">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Blur"
+       id="filter4149">
+      <feGaussianBlur
+         stdDeviation="1 1"
+         result="blur"
+         id="feGaussianBlur4151" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="1002"
+     id="namedview38"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0409259"
+     inkscape:cx="88.652815"
+     inkscape:cy="-8.1297833"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     d="m -2.1209142,-1 475.5269442,0 0,146.85391 -475.5269442,0 z"
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="fill:none" />
+  <path
+     d="m -2.1209142,-1 476.0211242,0 0,154.75418 -476.0211242,0 z"
+     id="path6"
+     inkscape:connector-curvature="0"
+     style="fill:#eff2f8" />
+  <text
+     font-weight="700"
+     font-size="12"
+     y="14.076068"
+     x="1.7056795"
+     id="text8"
+     style="font-weight:700;font-size:11.18886948px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#000000;stroke-width:0">POUR DÉCLARER SUR IMPOTS.GOUV.FR</text>
+  <text
+     font-weight="700"
+     font-size="10"
+     y="123.33351"
+     x="5.3318048"
+     id="text10"
+     style="font-weight:700;font-size:9.32405758px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#000000;stroke-width:0">DÉCLARANT 2</text>
+  <text
+     font-weight="700"
+     font-size="10"
+     y="38.130272"
+     x="5.4203839"
+     id="text12"
+     style="font-weight:700;font-size:9.32405758px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#000000;stroke-width:0">VOTRE N° FISCAL POUR DÉCLARER EN LIGNE</text>
+  <text
+     font-weight="700"
+     font-size="10"
+     y="74.191071"
+     x="6.2045369"
+     id="text14"
+     style="font-weight:700;font-size:9.32405758px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#000000;stroke-width:0">DÉCLARANT 1</text>
+  <text
+     font-weight="700"
+     font-size="10"
+     y="83.406036"
+     x="234.83229"
+     id="text16"
+     style="font-weight:700;font-size:9.32405758px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#000000;stroke-width:0">EN LIGNE</text>
+  <text
+     font-weight="700"
+     font-size="10"
+     y="69.447922"
+     x="234.51341"
+     id="text18"
+     style="font-weight:700;font-size:9.32405758px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#000000;stroke-width:0">N° D'ACCÈS</text>
+  <text
+     font-weight="700"
+     font-size="9.058"
+     y="129.44078"
+     x="234.5358"
+     style="font-weight:700;font-size:8.44573116px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Bold';text-align:start;fill:#2668ad;stroke:#2668ad;stroke-width:0"
+     id="text20"
+     sodipodi:linespacing="125%">À VOTRE DERNIER AVIS D'IMPÔT SUR LE REVENU</text>
+  <text
+     font-weight="700"
+     font-size="9.058"
+     y="114.33952"
+     x="234.37169"
+     style="font-weight:700;font-size:8.44573116px;line-height:125%;font-family:Helvetica, Arial, sans-serif;-inkscape-font-specification:'Helvetica, Arial, sans-serif, Bold';text-align:start;fill:#2668ad;stroke:#2668ad;stroke-width:0"
+     id="text22"
+     sodipodi:linespacing="125%">REVENU FISCAL DE RÉFÉRENCE : REPORTEZ-VOUS</text>
+  <path
+     stroke-linecap="null"
+     stroke-linejoin="null"
+     stroke-opacity="null"
+     d="m 1.3877288,92.805616 471.3329912,0 M 1.3877288,48.050138 l 470.8686512,0"
+     id="path24"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#2668ad;stroke-width:1.16364241" />
+  <path
+     d="m 1.5406438,20.193584 471.3348562,0 0,126.342846 -471.3348562,0 z"
+     id="path26"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#2668ad;stroke-width:1.16364241" />
+  <text
+     font-weight="700"
+     font-size="10"
+     y="38.028641"
+     x="233.46352"
+     fill-opacity="null"
+     stroke-opacity="null"
+     id="text28"
+     style="font-weight:700;font-size:9.32405758px;font-family:Helvetica, Arial, sans-serif;fill:#2668ad;stroke:#2668ad;stroke-width:0">SI VOUS N'AVEZ PAS ENCORE DE MOT DE PASSE</text>
+  <path
+     stroke-linecap="null"
+     stroke-linejoin="null"
+     stroke-opacity="null"
+     d="m 230.42482,145.93689 0,-125.410438"
+     id="path30"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#2668ad;stroke-width:1.63916934" />
+  <path
+     d="m 82.07253,59.46465 129.1382,0 0,21.483561 -129.1382,0 z m -0.466202,48.52333 129.138202,0 0,20.97913 -129.138202,0 z m 234.033852,-47.086493 129.1382,0 0,20.97913 -129.1382,0 z"
+     id="path32"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <text
+     y="76.164978"
+     x="322.2276"
+     font-size="15.16"
+     id="text34"
+     style="font-size:14.13527107px;font-family:Helvetica, Arial, sans-serif;stroke-width:0;filter:url(#filter4149)">1234567</text>
+  <path
+     d="m 316.37462,62.884425 77.48572,0 0,17.544147 -77.48572,0 z"
+     id="path36"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#ff0000;stroke-width:0.98555297" />
+</svg>

@@ -1,0 +1,54 @@
+.pasvisible {
+display: none;
+margin:0;
+}
+.ephemere {
+float: right ;
+font-size: 1.0em;
+/*height:70%; */
+/* line-height:70%; */
+color: teal;
+/*margin-top: 0.7em; */
+margin-bottom: 5px;
+}
+#liveCheck_code_SMS_tmp.ephemere {
+float: left;
+}
+.captcha-container {
+    padding: 0em 0em 0em 0em;
+    text-align: center;
+}
+
+.captcha-container > div {
+    padding: 0;
+    text-align: center;
+}
+.lienCaptcha {
+    margin-top: 12px;
+}
+.centrerResponsiveElement{
+        margin:0 auto;
+}
+
+input.oubliSaisie {
+    border-bottom: 1px solid #f22;
+}
+/*Ajout ASELPT */
+.cat1 {
+        margin-top: 0.75em;
+        }
+#changeSPI {
+	display: inline;
+	font-size: 0.9em;
+}
+
+/* Adaptations RWD */
+
+  @media screen and (max-width:360px){
+.ephemere {
+font-size: 0.8em;
+margin-bottom: 4px;
+
+    }
+ }
+

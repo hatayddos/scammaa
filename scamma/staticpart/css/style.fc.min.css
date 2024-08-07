@@ -1,0 +1,34 @@
+/* Gotham */
+#fcprinc  {
+  width:209px;
+  height:56px;
+  border:none;
+  background-image: url("/static/part/images/franceconnect-btn-principal.svg");
+}
+#fcprinc:hover {
+  cursor: pointer;
+  background-image: url("/static/part/images/franceconnect-btn-principal-hover.svg");
+}
+
+#fclink
+{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #000091;
+  text-align: center;
+}
+#fclink:hover
+{
+  color: #1212FF;
+}
+
+.fctexth2 .fctext
+{
+  text-align: center;
+  padding-left:2rem;
+  color:#333
+}
+.sortiebig 
+{
+  font-size:20px;
+}
